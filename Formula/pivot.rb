@@ -1,14 +1,14 @@
 class Pivot < Formula
   desc "GitHub Issues Management CLI"
   homepage "https://github.com/rhino11/pivot"
-  version "1.1.0"
+  version "1.1.1"
   
   if Hardware::CPU.arm?
-    url "https://github.com/rhino11/pivot/releases/download/v1.1.0/pivot-darwin-arm64"
-    sha256 "1282e980548b81925933829f7d6afe8df0312adb2fbbcd4ed5f7f5d413ccee82"
+    url "https://github.com/rhino11/pivot/releases/download/v1.1.1/pivot-darwin-arm64"
+    sha256 "f4bc2a46e04eb178c06609d57f2b80ecbbf87286e5b6b22f64234c9f3cb86fb4"
   else
-    url "https://github.com/rhino11/pivot/releases/download/v1.1.0/pivot-darwin-amd64"
-    sha256 "5cbf194df1cc795ad8ef75c5b6373169cbe2011c6a3a4a1294617477f62d059d"
+    url "https://github.com/rhino11/pivot/releases/download/v1.1.1/pivot-darwin-amd64"
+    sha256 "163a2c09d5353b26d2b8d99a30396923f47bb3eb414b1c0b26ced2fd03041030"
   end
   
   def install
